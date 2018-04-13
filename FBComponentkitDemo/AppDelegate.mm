@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CocoVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor redColor];
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    [flowLayout setMinimumInteritemSpacing:10];
+    [flowLayout setMinimumLineSpacing:10];
+    CocoVC *viewController = [[CocoVC alloc] initWithCollectionViewLayout:flowLayout];
+    
+    [_window setRootViewController:viewController];//[[UINavigationController alloc] initWithRootViewController:viewController]];
+    [_window makeKeyAndVisible];
     return YES;
+    
 }
 
 
