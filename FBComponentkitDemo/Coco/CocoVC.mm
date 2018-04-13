@@ -2,7 +2,7 @@
 //  CocoVC.m
 //  ComponentKitDemo
 //
-//  Created by didi on 2018/4/10.
+//  Created by biubiublue on 2018/4/10.
 //  Copyright © 2018年 lining. All rights reserved.
 //
 

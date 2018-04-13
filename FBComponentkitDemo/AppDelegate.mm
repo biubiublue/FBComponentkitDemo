@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  FBComponentkitDemo
 //
-//  Created by didi on 2018/4/13.
+//  Created by biubiublue on 2018/4/13.
 //  Copyright © 2018年 lining. All rights reserved.
 //
 

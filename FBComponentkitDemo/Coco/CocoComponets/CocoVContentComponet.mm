@@ -2,7 +2,7 @@
 //  CocoVContentComponet.m
 //  WildeGuess
 //
-//  Created by didi on 2018/4/12.
+//  Created by biubiublue on 2018/4/12.
 //
 #define kRandomNum (arc4random()%255/255.0f)
 #define kRandomColor [UIColor colorWithRed:kRandomNum green:kRandomNum blue:kRandomNum alpha:1]
