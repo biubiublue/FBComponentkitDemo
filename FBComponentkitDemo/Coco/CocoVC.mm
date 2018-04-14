@@ -50,8 +50,8 @@
     
     //DataSource: 用来控制整个数据流,所谓数据驱动
     CKCollectionViewDataSource * mDataSource = [[CKCollectionViewDataSource alloc] initWithCollectionView:self.collectionView
-                                                                                                        supplementaryViewDataSource:nil
-                                                                                                                      configuration:configuration];
+                                                                              supplementaryViewDataSource:nil
+                                                                                            configuration:configuration];
     self.dataSource = mDataSource;
     
     NSMutableDictionary *mmDic = [NSMutableDictionary dictionaryWithCapacity:20];
