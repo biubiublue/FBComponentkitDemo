@@ -1,6 +1,6 @@
 # fbComponentkitDemo
 
-
+这样集成Componentkit的原因是我发现Componentkit在pod和carthage上发布的release版本都不是最新的，很多东西都有改动，为了更方便学习最新的代码，所以就建了这个demo。
 
 1.执行命令克隆代码
 ```
